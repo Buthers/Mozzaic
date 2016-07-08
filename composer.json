@@ -1,0 +1,11 @@
+{ 
+	"name": "mozzaic/app",
+	"description": "Mozzaic Samp Application",
+	"homepage": "http://mozzaic.org",
+	"type": "project",
+	"require":
+	{
+		"php": ">=5.5.9",
+		"mozzaic/mozzaic": "~1",
+	},
+}
