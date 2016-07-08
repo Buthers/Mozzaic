@@ -27,4 +27,5 @@
 	$Database = new Database();
 	$Server = new Server();
 	$Vocal = new Vocal();
+	$Linux = new Linux();
 ?>
