@@ -29,27 +29,16 @@
 		static function Command($command, $target)
 		{
 			$target = NULL;
-			$serverCommands = array("kick", "ban");
+			$serverCommands = array("kick");
 			if(in_array($command, $serverCommands))
 			{
 				switch($serverCommands)
 				{
-					default:
+					default: // This is an example of command
 					{
 						if(isset($target)) 
 						{
 							shell_exec("kick ".$target);
-						}
-						else
-						{
-							shell_exec("notify-send 'Please insert a target !'");
-						}
-					}
-					case 1:
-					{
-						if(isset($target))
-						{
-							shell_exec("ban ".$target);
 						}
 						else
 						{
