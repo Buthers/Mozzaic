@@ -15,8 +15,11 @@ Vocal:
   - vocal.class.php => Manager of the vocal elements of your server (teamspeak, mumble, discord ...)
   - vocal.php => Manager of the vocal informations of your server
 
+Linux:
+  - linux.class.php => Manager of the possible linux functions that will be sent in the linux machine
+
 ----------------------------------------------
 
 Coming soon:
 
-Linux, Map, Skin, Vehicle and File !
+Map, Skin, Vehicle and File !
