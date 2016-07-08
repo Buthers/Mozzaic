@@ -16,7 +16,8 @@
 	"Server/server.php", 
 	"Server/server.functions.php",
 	"Vocal/vocal.class.php",
-	"Vocal/vocal.php");
+	"Vocal/vocal.php",
+	"Linux/linux.class.php");
 
 	for($scriptIncluded = 0; $scriptIncluded < sizeof($arrayScriptsIncluded); $scriptIncluded ++)
 	{
@@ -24,8 +25,6 @@
 	}
 	
 	$Database = new Database();
-	$Database::Start($databaseInfo["hostname"], $databaseInfo["dbname"], $databaseInfo["user"], $databaseInfo["password"]);
-	
 	$Server = new Server();
 	$Vocal = new Vocal();
 ?>

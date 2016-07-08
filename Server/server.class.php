@@ -3,11 +3,13 @@
 	{
 		static function Start()
 		{
+			shell_exec("nohup ./samp03svr &");
 			OnServerStarted();
 		}
 		
 		static function Stop()
 		{
+			shell_exec("killall samp03svr");
 			OnServerStoped();
 		}
 		
@@ -22,6 +24,11 @@
 			{
 				return 0;
 			}
+		}
+		
+		static function Command($command)
+		{
+			
 		}
 	}
 ?>	
