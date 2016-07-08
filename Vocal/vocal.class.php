@@ -3,9 +3,7 @@
 	{	
 		static function Add($type, $teamspeakWidth, $teamspeakHeight)
 		{
-			global $teamspeakInfo;
-			global $mumbleInfo;
-			global $discordInfo;
+			global $teamspeakInfo, $mumbleInfo, $discordInfo;
 			switch($type)
 			{
 				default:
