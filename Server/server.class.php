@@ -26,25 +26,14 @@
 			}
 		}
 		
-		static function Command($command, $target)
+		static function Command($command)
 		{
-			$target = NULL;
-			$serverCommands = array("kick");
+			global $serverCommands;
 			if(in_array($command, $serverCommands))
 			{
 				switch($serverCommands)
 				{
-					default: // This is an example of command
-					{
-						if(isset($target)) 
-						{
-							shell_exec("kick ".$target);
-						}
-						else
-						{
-							shell_exec("notify-send 'Please insert a target !'");
-						}
-					}
+					
 				}
 			}
 		}

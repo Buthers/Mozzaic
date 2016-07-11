@@ -1,7 +1,7 @@
 <?php
 	class Vocal
 	{	
-		static function Add($type, $teamspeakWidth, $teamspeakHeight)
+		static function Add($type, $width, $height)
 		{
 			global $teamspeakInfo, $mumbleInfo, $discordInfo;
 			switch($type)
