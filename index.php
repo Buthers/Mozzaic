@@ -3,6 +3,7 @@
  * Mozzaic : Samp Web Advanced Development
  * Copyright (c) Mozzaic Foundation, Inc. 
  * Created by Buthers
+ * Old update : 11.07.16
  * 
  * Do not use this project for commercial purposes
  * Changes and innovations permitted if credits are preserved
